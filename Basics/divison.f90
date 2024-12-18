@@ -13,6 +13,9 @@ program division
   i = 2
   j = 3
 
+  print *, "Largest number can be represented by 'real' datatype : ", huge(p)
+  print *, "Smallest number can be represented by 'real' datatype : ", tiny(p)
+
   ! floating point division
   realRes = p/q
   intRes = i/j
